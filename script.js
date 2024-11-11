@@ -1,9 +1,13 @@
-// You can add JavaScript here to enhance your page, like:
-// - Adding interactive elements
-// - Handling user input
-// - Making AJAX requests
+function scrollToTop() {
+  // Scroll to the top of the page
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth", // Optional: adds smooth scrolling animation
+  });
+}
 
-// For example, a simple alert:
-document.querySelector('button').addEventListener('click', () => {
-    alert('Button clicked!');
-});
+// -- To disable right click --
+
+// document.addEventListener("contextmenu", function (e) {
+//   e.preventDefault();
+// });
